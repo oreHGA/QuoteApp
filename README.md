@@ -1,2 +1,2 @@
-# Smart Chat App 
+# Quote App 
  [More Documentation Soon]
