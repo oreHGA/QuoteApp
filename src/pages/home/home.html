@@ -1,5 +1,6 @@
 <ion-content class="quote-container" padding>
-  <ion-item>
-    <p class="quote-text">{{ quote? }}</p>
+  <ion-item *ngIf="quote" class="quote-text">
+    <p [innerHTML]="quote[0]?.content"></p>
+    <p>By {{ quote[0]?.title }}</p>
   </ion-item>
 </ion-content>

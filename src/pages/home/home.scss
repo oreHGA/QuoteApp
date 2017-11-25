@@ -1,13 +1,15 @@
 page-home {
-
+  height: 100%;
 }
 .quote-container{
   height: 100%;
   display: block;
-  vertical-align: middle !important;
-  background-color: blue;
+  // background-color: blue;
 }
 
 .quote-text{
   color: white;
+  background-color: inherit;
+  // margin-top: 40%;
+  text-align: center;
 }

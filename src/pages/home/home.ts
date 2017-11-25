@@ -12,10 +12,7 @@ import { QuoteProvider } from '../../providers/quote/quote';
 @IonicPage()
 @Component({
   selector: 'page-home',
-  templateUrl: 'home.html',
-  // styleUrls: [
-  //   './home.css'
-  // ]
+  templateUrl: 'home.html'
 })
 export class HomePage {
 
