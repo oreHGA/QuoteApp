@@ -1,12 +1,12 @@
-<ion-content class="quote-container" >
+<ion-content class="quote-container" no-scroll>
   <ion-slides pager>
     <ion-slide style="background-color: rgb(42, 177, 255)">
       <img src="../../assets/imgs/logo.png"/>
     </ion-slide>
 
     <ion-slide *ngIf="quote" style="background-color: rgb(42, 177, 255); color:white">
-      <p [innerHTML]="quote[0]?.content"></p>
-      <p>By {{ quote[0]?.title }}</p>
+      <p [innerHTML]="quote[0]?.content" padding></p>
+      <p padding>By {{ quote[0]?.title }}</p>
     </ion-slide>
 
   </ion-slides>
